@@ -2,15 +2,65 @@
 <html>
 <head>
 <style>
-body {background-color: White;}
-h1   {color: gray;}
-p    {color: pink;}
+#school {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#school td, #school th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#school tr:nth-child(even){background-color: #f2f2f2;}
+
+#school tr:hover {background-color: #ddd;}
+
+#school th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4f4caf;
+  color: white;
+}
 </style>
 </head>
 <body>
 
-<h1>Education</h1>
-<p>Web Developer</p>
+<table id="school">
+  <tr>
+    <th>School Name</th>
+    <th>Program</th>
+    <th>Year Completed</th>
+  </tr>
+  <tr>
+    <td>Harvardx</td>
+    <td>CS50's Intro to Computer Science</td>
+    <td>2020</td>
+  </tr>
+  <tr>
+    <td>Harvardx</td>
+    <td>CS50's Web Programming and Javascript</td>
+    <td>2020</td>
+  </tr>
+  <tr>
+    <td>IBMx</td>
+    <td>Marketing Management</td>
+    <td>2020</td>
+  </tr>
+  <tr>
+    <td>Palm Beach State College</td>
+    <td>Film Studies</td>
+    <td>2013</td>
+  </tr>
+  <tr>
+    <td>Deerfield Beach High School</td>
+    <td>Communicaations and Broadcast Media</td>
+    <td>2011</td>
+  </tr>
+
+</table>
 
 </body>
 </html>
