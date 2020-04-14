@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
 <style>
-body {background-color: White;}
+body {background-color: White;
+      text-align: center;}
 h1   {color: gray;}
-p    {color: pink;}
+p    {color: pink;
+      text-align: center;}
 </style>
 </head>
 <body>
 
 <h1>Get In Touch</h1>
-<p>on another page</p>
+<p>Please use this form to contact me. I would love to hear from you!</p>
 
 </body>
+
+<br>
+
 </html>
 
 
@@ -46,7 +55,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #4f4caf;
 }
 
 .container {
@@ -60,7 +69,8 @@ input[type=submit]:hover {
 
 
 <div class="container">
-  <form action="/action_page.php">
+  <form action="mailto:devirnnarine@gmail.com" method="post" enctype="text/plain">
+
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -322,7 +332,7 @@ input[type=submit]:hover {
 
 
 
-    <label for="subject">Subject</label>
+    <label for="subject">Don't be shy 😊</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
